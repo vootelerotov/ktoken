@@ -1,6 +1,17 @@
 # What is this
 
-Stripped down, un-tested fork of [Stoken](https://github.com/cernekee/stoken) in Kotlin.
+Stripped down, ~un-tested~ tested fork of [Stoken](https://github.com/cernekee/stoken) in Kotlin.
+
+To use, get token from stoken using:
+
+`stoken --export`
+
+and then 
+```
+val tokenCodeGenerator = TokenCreator().createTokenCodeGeneratorFromString(token)
+
+val tokenCode = tokenCodeGenerator.generateTokenCode(timestamp)
+```
 
 # Why
 
