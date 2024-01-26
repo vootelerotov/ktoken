@@ -1,8 +1,9 @@
 # What is this
 
-Stripped down, ~un-tested~ tested fork of [Stoken](https://github.com/cernekee/stoken) in Kotlin.
+Stripped down fork of [Stoken](https://github.com/cernekee/stoken) in Kotlin,
+implementing the very basic functionality of generating token codes from a token string.
 
-To use, get token from stoken using:
+To use, get token from `stoken` using:
 
 `stoken --export`
 
@@ -12,10 +13,6 @@ val tokenCodeGenerator = TokenCreator().createTokenCodeGeneratorFromString(token
 
 val tokenCode = tokenCodeGenerator.generateTokenCode(timestamp)
 ```
-
-# Why
-
-Bored on Sunday and wanted to get a better understanding of how OTP works.
 
 # Licence
 
