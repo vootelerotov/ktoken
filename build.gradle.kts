@@ -7,8 +7,8 @@ plugins {
     id("io.github.gradle-nexus.publish-plugin") version "1.3.0"
 }
 
-group = "io.github.vootelerotov.ktoken"
-version = "0.0.1-SNAPSHOT"
+group = "io.github.vootelerotov"
+version = "0.0.1"
 
 repositories {
     mavenCentral()
